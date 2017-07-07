@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeTable</string>
+    <string name="alarm_help">Уведомление перед парой и и настройка времени пар</string>
+    <string name="about">О программе</string>
+    <string name="back">Назад</string>
+    <string name="edit_table">Редактировать</string>
+    <string name="exit">Выход</string>
+    <string name="fri">Пятница</string>
+    <string name="help">Помощь</string>
+    <string name="lesson">пара</string>
+    <string name="loading">загрузка...</string>
+    <string name="minute">минут</string>
+    <string name="mon">Понедельник</string>
+    <string name="new_file"></string>
+    <string name="next">Далее</string>
+    <string name="no_connection">Проблема с подключением</string>
+    <string name="notification">Уведомление до пары</string>
+    <string name="notify">Будильник</string>
+    <string name="ok"></string>
+    <string name="sat">Суббота</string>
+    <string name="save">Сохранить</string>
+    <string name="saved">сохранено</string>
+    <string name="sent_through_bluetooth">Отправить</string>
+    <string name="setting_uri">настройки сайта</string>
+    <string name="settings">Настройки</string>
+    <string name="share_file">Отправить</string>
+    <string name="thu">Четверг</string>
+    <string name="time_of_lessons">Настройка времени пар:</string>
+    <string name="tues">Вторник</string>
+    <string name="update_data">Обновить</string>
+    <string name="update_from_memory">Поиск</string>
+    <string name="update_from_site">Обновить</string>
+    <string name="update_service">Уведомление</string>
+    <string name="update_state">Уведомление</string>
+    <string name="wed">Среда</string>
+    <string name="university">Учебное заведение</string>
+    <string name="group">Группа:</string>
+    <string name="faculty">Факультет:</string>
+
+    <string-array name="week">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string name="room">аудитория</string>
+    <string name="failed">Ошибка</string>
+</resources>

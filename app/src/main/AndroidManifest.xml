@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shinbolat.tabapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name=".App"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".findfile.UpdateFromMemory"
+            android:label="@string/update_from_memory">
+        </activity>
+
+        <activity
+            android:name=".about.AboutActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.MinWidth"
+            android:label="@string/about">
+        </activity>
+
+        <activity
+            android:name=".setting.SettingApp"
+            android:label="@string/settings"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.MinWidth">
+        </activity>
+
+        <activity
+            android:name=".setting.TimerForLesson"
+            android:label="@string/notification"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.MinWidth">
+        </activity>
+
+        <activity android:name=".updateservice.RepeatingTimeTablesCheck"
+            android:label="@string/update_service"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.MinWidth"/>
+
+        <service
+            android:name=".appwidget.TableWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS">
+        </service>
+
+        <receiver
+            android:name=".appwidget.TableAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info"/>
+        </receiver>
+
+        <service android:name=".setting.AlarmService"/>
+        <receiver android:name=".setting.AlarmReceiver"/>
+        <service android:name=".updateservice.UpdateCheckService"/>
+
+        <activity android:name=".OperationsActivity"/>
+
+    </application>
+
+</manifest>

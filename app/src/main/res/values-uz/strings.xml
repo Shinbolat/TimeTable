@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeTable</string>
+    <string name="alarm_help">Darsdan oldin xabar berish va dars vaqtini aniqlash</string>
+    <string name="about">Haqida</string>
+    <string name="back">Orqaga</string>
+    <string name="edit_table">O\'zgartirish</string>
+    <string name="exit">Chiqish</string>
+    <string name="fri">Juma</string>
+    <string name="next">Olga</string>
+    <string name="faculty">Facultet:</string>
+    <string name="help">Yordam</string>
+    <string name="loading">yuklash...</string>
+    <string name="lesson">Juftlik</string>
+    <string name="group">Guruh:</string>
+    <string name="minute">daqiqa</string>
+    <string name="no_connection">Internet muammo</string>
+    <string name="mon">Dushanba</string>
+    <string name="notify">Uyg\'otish</string>
+    <string name="notification">Darsdan oldin xabar berish</string>
+    <string name="sat">Shanba</string>
+    <string name="saved">saqlandi</string>
+    <string name="save">Saqlash</string>
+    <string name="sent_through_bluetooth">yuborish</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="setting_uri">saytni sozlash</string>
+    <string name="thu">Payshanba</string>
+    <string name="tues">Seshanba</string>
+    <string name="university">Bilim yurti</string>
+    <string name="update_from_memory">Izlash</string>
+    <string name="update_service">Eslatma</string>
+    <string name="share_file" translatable="false">Yuborish</string>
+    <string name="time_of_lessons">Dars soatini sozlash</string>
+    <string name="update_data">Yangilash</string>
+    <string name="update_from_site">Yangilash</string>
+    <string name="update_state">Eslatma</string>
+    <string name="wed">Chorshanba</string>
+
+    <string-array name="week">
+        <item>Dushanba</item>
+        <item>Seshanba</item>
+        <item>Chorshanba</item>
+        <item>Payshanba</item>
+        <item>Juma</item>
+        <item>Shanba</item>
+    </string-array>
+    <string name="room">auditoriya</string>
+    <string name="failed">Xato</string>
+
+</resources>

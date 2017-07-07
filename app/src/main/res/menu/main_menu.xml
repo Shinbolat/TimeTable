@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_sent"
+        android:title="@string/sent_through_bluetooth"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/update_from_memory"
+        android:title="@string/update_from_memory"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/update_from_site"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings_timer"
+        android:title="@string/notify"/>
+
+    <item
+        android:id="@+id/action_service_update"
+        android:title="@string/update_service"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/about"
+        android:showAsAction="never"/>
+</menu>
